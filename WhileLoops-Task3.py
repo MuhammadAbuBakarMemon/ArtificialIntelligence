@@ -59,6 +59,7 @@ while keepgoing == True and count > 0:
                 
             else:
                 print("Going Back to Main Menu.")
+                continue
                 
             nestedchoice = input("Do you wish to choose another option? (Y=Yes, N=No)").lower()
             if nestedchoice == "y":
@@ -82,6 +83,7 @@ while keepgoing == True and count > 0:
                 
             else:
                 print("Going Back to Main Menu.")
+                continue
             
             nestedchoice = input("Do you wish to choose another option? (Y=Yes, N=No)").lower()
             if nestedchoice == "y":
